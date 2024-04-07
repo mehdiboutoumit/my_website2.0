@@ -1,0 +1,28 @@
+.fade-words {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  .word {
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    margin-right: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transform: translateY(10px);
+  }
+  
+  .word.show {
+    opacity: 1;
+    transform: translateY(0);
+    color: #2882e7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .dark-background {
+    background-color: rgb(7, 7, 48);
+  }
