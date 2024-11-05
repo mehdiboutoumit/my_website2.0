@@ -14,11 +14,18 @@ const restaumanage = importAll(require.context('../images/projects/restau', fals
 const BabyTrack = importAll(require.context('../images/projects/babytrack', false, /\.(png|jpe?g|svg)$/));
 const a2s = importAll(require.context('../images/projects/a2s', false, /\.(png|jpe?g|svg)$/));
 const krilya = importAll(require.context('../images/projects/krilya', false, /\.(png|jpe?g|svg)$/));
+const mhd = importAll(require.context('../images/projects/mhd', false, /\.(png|jpe?g|svg)$/));
 const warehouse = importAll(require.context('../images/projects/admin', false, /\.(png|jpe?g|svg)$/));
 const plagiat = importAll(require.context('../images/projects/plagiarism', false, /\.(png|jpe?g|svg)$/));
 
 export const projectsData = [
 	{
+		title : 'MHD Generator',
+		category: 'Tool',
+		img: mhd,
+		url : 'https://github.com/mehdiboutoumit/mhd-generator'
+	}
+	,{
 		title : 'KriLya - Online Rental Platform',
 		category: 'Web Application',
 		img: krilya,

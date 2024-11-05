@@ -12,6 +12,8 @@ import mui from "../images/skills/materialui.png";
 import docker from "../images/skills/docker.png";
 import kuber from "../images/skills/kubernetes.png";
 import java from "../images/skills/java.png";
+import angular from "../images/skills/angular.png";
+import aws from "../images/skills/aws.png";
 
 
 
@@ -19,23 +21,24 @@ export const skillsHeading = 'Skills';
 
 export const skillsData = [
 	{
+		id: 4,
+		title: 'spring',
+		img: spring,
+	},
+	{
 		id: 1,
 		title: 'React',
 		img: reacticon,
 	},{
 		id: 2,
+		title: 'Angular',
+		img: angular,
+	},{
+		id: 22,
 		title: 'Node',
 		img: nodeicon,
 	},
 	,{
-		id: 3,
-		title: 'laravel',
-		img: laravel,
-	},,{
-		id: 4,
-		title: 'spring',
-		img: spring,
-	},,{
 		id: 8,
 		title: 'js',
 		img: js,
@@ -48,10 +51,14 @@ export const skillsData = [
 		id: 5,
 		title: 'express',
 		img: express,
-	},,{
+	},{
+		id: 3,
+		title: 'laravel',
+		img: laravel,
+	},{
 		id: 6,
-		title: 'rest',
-		img: rest,
+		title: 'aws',
+		img: aws,
 	},,{
 		id: 7,
 		title: 'mysql',

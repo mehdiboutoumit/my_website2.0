@@ -1,5 +1,6 @@
 const selectOptions = [
 	'Web Application',
+	'Tool',
 	'Mobile Application',
 	'UI/UX Design',
 	
